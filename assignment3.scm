@@ -12,3 +12,5 @@
 (define (adder-acc sequence)
   (acc + sequence 0))
 
+(define (product-acc sequence)
+  (acc * sequence 1))
