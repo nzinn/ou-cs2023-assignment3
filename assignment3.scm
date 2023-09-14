@@ -20,7 +20,7 @@
 (define (product-acc sequence)
   (acc * sequence 1))
 
-
+;; This function prints the product and sum of an inputed list of numbers
 (define (main args)
   (format #t "Enter a sequence of numbers: \n")
   (let ((nums (get-input)))
