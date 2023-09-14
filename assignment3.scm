@@ -30,6 +30,7 @@
   (format #t "Enter a sequence of numbers: \n")
   (let ((nums (get-input)))
     (format #t "Sum: ~a\n" (adder-acc nums))
-    (format #t "Product: ~a\n" (product-acc nums))))
+    (format #t "Product: ~a\n" (product-acc nums))
+    (format #t "Reverse: ~a\n" (my-reverse nums))))
 
 
