@@ -21,6 +21,11 @@
   (acc * sequence 1))
 
 
+(define (my-reverse sequence)
+  (if (= (length sequence) 1)
+      sequence
+      (append (my-reverse (cdr sequence)) (list (car sequence)))))
+
 (define (main args)
   (format #t "Enter a sequence of numbers: \n")
   (let ((nums (get-input)))
